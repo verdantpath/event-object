@@ -17,5 +17,5 @@ function checkUsername(e, minLength) {
 
 var el = document.getElementById('username');
 el.addEventListener('blur', function(e) {
-  checkUsername(e, 5);
+  checkUsername(e, 5); 
 }, false);
